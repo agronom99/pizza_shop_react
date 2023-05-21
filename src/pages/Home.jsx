@@ -17,6 +17,7 @@ const Home = () => {
            setIsLoading(false);
            // setTimeout(() => {.........}, 1000);
          });
+         window.scroll(0,0);
      }, []);
     return (
       <>
