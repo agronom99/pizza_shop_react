@@ -1,0 +1,32 @@
+.root {
+  li {
+    display: inline-block;
+
+    a {
+      display: inline-block;
+      color: tomato;
+      text-align: center;
+      width: 45px;
+      height: 45px;
+      line-height: 42px;
+      padding: 0px 14px;
+      border: 1px solid tomato;
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: tomato;
+        color: white;
+      }
+    }
+  }
+  :global {
+    .selected {
+      a {
+        background-color: tomato;
+        color: white;
+      }
+    }
+  }
+}

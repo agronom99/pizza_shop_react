@@ -13,15 +13,16 @@ import NotFound from "./pages/NotFound";
 // import pizzas from "./assets/pizzas.json";
 
 function App() {
+  const [searchValue, setSearchValue] = React.useState('');
   return (
     <div class Name="wrapper">
-      <Header />
+      <Header searchValue={searchValue} setSearchValue={setSearchValue} />
       <div className="content">
         <div className="container">
           {/* <NotFound /> */}
           {/* <Home /> */}
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home searchValue={searchValue} />} />
             <Route path="/cart" element={<Cart />} />
 
             <Route path="*" element={<NotFound />} />
