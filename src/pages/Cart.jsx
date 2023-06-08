@@ -24,7 +24,7 @@ const Cart = () => {
             <path d="M11.6666 9.16667V14.1667" stroke="#B6B6B6" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
 
-                            <span>Очистить корзину</span>
+                            <span>Очистити корзину</span>
                         </div>
                         </div>
                         <div class="content__items">
@@ -33,8 +33,8 @@ const Cart = () => {
                 <img class="pizza-block__image" src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg" alt="Pizza"/>
             </div>
             <div class="cart__item-info">
-                <h3>Сырный цыпленок</h3>
-                <p>тонкое тесто, 26 см.</p>
+                <h3>Сирне курча</h3>
+                <p>тонке тісто, 26 см.</p>
             </div>
             <div class="cart__item-count">
                 <div class="button button--outline button--circle cart__item-count-minus">
@@ -54,7 +54,7 @@ const Cart = () => {
                 </div>
             </div>
             <div class="cart__item-price">
-                <b>770 ₽</b>
+                <b>770 $</b>
             </div>
             <div class="cart__item-remove">
                 <div class="button button--outline button--circle">
@@ -71,8 +71,8 @@ const Cart = () => {
                 <img class="pizza-block__image" src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg" alt="Pizza"/>
             </div>
             <div class="cart__item-info">
-                <h3>Сырный цыпленок</h3>
-                <p>тонкое тесто, 26 см.</p>
+                <h3>Сирне курча</h3>
+                <p>тонке тісто, 26 см.</p>
             </div>
             <div class="cart__item-count">
                 <div class="button button--outline button--circle cart__item-count-minus">
@@ -92,7 +92,7 @@ const Cart = () => {
                 </div>
             </div>
             <div class="cart__item-price">
-                <b>770 ₽</b>
+                <b>770 $</b>
             </div>
             <div class="cart__item-remove">
                 <div class="button button--outline button--circle">
@@ -109,8 +109,8 @@ const Cart = () => {
                 <img class="pizza-block__image" src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg" alt="Pizza"/>
             </div>
             <div class="cart__item-info">
-                <h3>Сырный цыпленок</h3>
-                <p>тонкое тесто, 26 см.</p>
+                <h3>Сирне курча</h3>
+                <p>тонке тісто, 26 см.</p>
             </div>
             <div class="cart__item-count">
                 <div class="button button--outline button--circle cart__item-count-minus">
@@ -130,7 +130,7 @@ const Cart = () => {
                 </div>
             </div>
             <div class="cart__item-price">
-                <b>770 ₽</b>
+                <b>770 $</b>
             </div>
             <div class="cart__item-remove">
                 <div class="button button--outline button--circle">
@@ -147,8 +147,8 @@ const Cart = () => {
                 <img class="pizza-block__image" src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg" alt="Pizza"/>
             </div>
             <div class="cart__item-info">
-                <h3>Сырный цыпленок</h3>
-                <p>тонкое тесто, 26 см.</p>
+                <h3>Сирне курча</h3>
+                <p>тонке тісто, 26 см.</p>
             </div>
             <div class="cart__item-count">
                 <div class="button button--outline button--circle cart__item-count-minus">
@@ -168,7 +168,7 @@ const Cart = () => {
                 </div>
             </div>
             <div class="cart__item-price">
-                <b>770 ₽</b>
+                <b>770 $</b>
             </div>
             <div class="cart__item-remove">
                 <div class="button button--outline button--circle">
@@ -184,8 +184,8 @@ const Cart = () => {
             </div>
             <div class="cart__bottom">
               <div class="cart__bottom-details">
-                <span> Всего пицц: <b>3 шт.</b> </span>
-                <span> Сумма заказа: <b>900 ₽</b> </span>
+                <span> Всього піцц: <b>3 шт.</b> </span>
+                <span> Вартість заказу: <b>900 $</b> </span>
               </div>
               <div class="cart__bottom-buttons">
                 <Link to="/" class="button button--outline button--add go-back-btn">
@@ -193,10 +193,10 @@ const Cart = () => {
                     <path d="M7 13L1 6.93015L6.86175 1" stroke="#D3D3D3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
                     </svg>
 
-                  <span>Вернуться назад</span>
+                  <span>Повернутись назад</span>
                 </Link>
                 <div class="button pay-btn">
-                  <span>Оплатить сейчас</span>
+                  <span>Оплатити зараз</span>
                 </div>
               </div>
             </div>

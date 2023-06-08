@@ -34,7 +34,7 @@ const PizzaBlock = ({ title, price, imageUrl, sizes, types }) => {
         </ul>
       </div>
       <div className="pizza-block__bottom">
-        <div className="pizza-block__price">от {price} ₽</div>
+        <div className="pizza-block__price">от {price} $</div>
         <button className="button button--outline button--add">
           <svg
             width="12"
@@ -48,7 +48,7 @@ const PizzaBlock = ({ title, price, imageUrl, sizes, types }) => {
               fill="white"
             ></path>
           </svg>
-          <span>Добавить</span>
+          <span>Добавити</span>
           <i>0 </i>
         </button>
       </div>

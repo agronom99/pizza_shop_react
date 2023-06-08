@@ -37,7 +37,7 @@ const Sort = () => {
             fill="#2C2C2C"
           ></path>
         </svg>
-        <b>Сортировка по:</b>
+        <b>Сортування по:</b>
         <span onClick={() => setOpen(!open)}>{sort.name}</span>
       </div>
       {open && (
