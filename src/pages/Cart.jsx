@@ -117,7 +117,7 @@ if (!totalPrice){
               </div>
               <div className="cart__bottom-buttons">
                 <Link
-                  to="/"
+                  to="/cart"
                   className="button button--outline button--add go-back-btn"
                 >
                   <svg
