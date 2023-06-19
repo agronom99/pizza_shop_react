@@ -18,7 +18,7 @@ const CartItem = ({ id, title, type, price,size, count, imageUrl }) => {
   };
 
   const onClickRemove = () => {
-   if (window.confirm("Are you sure you want to remove?")){
+   if (window.confirm("Видалити товар з корзини?")){
     dispatch(removeItem(id))
    }
   };
